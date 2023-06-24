@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockLayout</title>
+</head>
+<body>
+    <script src="./index.js"></script>
+    <!-- Pile Inputs -->
+    <h2>Pile Inputs</h2>
+    <div id="pile-info">
+        <!-- <label for="input-number-of-piles">Number of Piles: </label>
+        <br>
+        <input id="input-number-of-piles" name="input-number-of-piles" type="number">
+        <br> -->
+        <label for="input-number-of-tests">Number of tests</label>
+        <br>
+        <input id="input-number-of-tests" name="input-number-of-tests" type="number">
+        <br>
+        <button onclick="GenerateNumberOfTestsInputs()">Generate Test Inputs</button>
+        <br>
+        <div id="inputdiv-number-of-tests"></div>
+    </div>
+    <div id="color-info">
+        <h2>Color Inputs</h2>
+        <label for="input-number-of-colors">Number of Colors: </label>
+        <br>
+        <input id="input-number-of-colors" name="input-number-of-colors" type="number">
+        <br>
+        <button onclick="GenerateNumberOfColorsInput()">Generate Color Inputs</button>
+        <br>
+        <div id="inputdiv-clothes-per-color">
+            
+        </div>
+    </div>
+
+    <div id="result-info">
+        <h2>Results</h2>
+        <button onclick="GenerateLayout()">Generate Layout</button>
+        <div id="results"></div>
+    </div>
+    
+</body>
+</html>
